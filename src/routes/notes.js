@@ -8,7 +8,7 @@ const {
 const router = Router();
 
 router.get("/", getNotes);
-router.get("/:id", deleteNotes);
-router.get("/", createNote);
+router.delete("/:id", deleteNotes);
+router.post("/", createNote);
 
 module.exports = router;
