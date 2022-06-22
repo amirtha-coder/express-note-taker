@@ -2,6 +2,10 @@
 
 A note taker application that uses express and Node.JS.
 
+## Deployed Heroku URL
+
+Click the link [here]() to access the webpage.
+
 ## User Journey
 
 ```

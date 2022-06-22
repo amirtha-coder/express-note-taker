@@ -14,7 +14,6 @@ const getNotes = (req, res) => {
 };
 const createNote = (req, res) => {
   const { title, text } = req.body;
-  console.log(req.body);
 
   const id = uuidv4();
 
@@ -25,9 +24,9 @@ const createNote = (req, res) => {
   };
 
   let data = readDataFromFile("../db/db");
-  console.log(data);
+
   data.push(note);
-  console.log(data);
+
   writeDataFromFile("../db/db", data);
 
   return res.json(data);
@@ -40,7 +39,6 @@ const deleteNotes = (req, res) => {
   const filteredNotes = data.filter((note) => note.id !== targetID);
 
   const datas = writeDataFromFile("../db/db", filteredNotes);
-  console.log(datas);
 
   return res.json(filteredNotes);
 };
