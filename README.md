@@ -4,7 +4,7 @@ A note taker application that uses express and Node.JS.
 
 ## Deployed Heroku URL
 
-Click the link [here]() to access the webpage.
+Click the link [here](https://whispering-shelf-04348.herokuapp.com/) to access the webpage.
 
 ## User Journey
 
