@@ -26,9 +26,9 @@ THEN I exit the application, and the HTML is generated
 ## Installation
 
 ```
-git clone git@github.com:amirtha-coder/team-profile-generator.git
+git clone git@github.com:amirtha-coder/express-note-taker.git
 
-cd team-profile-generator
+cd express-note-taker
 
 code .
 
