@@ -11,6 +11,7 @@ const readDataFromFile = (fileName) => {
 };
 
 const writeDataFromFile = (fileName, data) => {
+  console.log("recieved", data);
   const filePath = path.join(__dirname, `./${fileName}.json`);
 
   fs.writeFileSync(filePath, JSON.stringify(data));

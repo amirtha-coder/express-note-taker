@@ -2,10 +2,6 @@
 
 A note taker application that uses express and Node.JS.
 
-# Demonstration Video
-
-Please click [here](https://www.loom.com/share/8258b1d6b0024506accf2bf6faae3a99) to view.
-
 ## User Journey
 
 ```
